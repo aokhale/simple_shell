@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _erratoi - converts a string to a integer
+ * _erratoi - to converts a string to a integer
  * @s: the string to be converted.
- * Return: 0 if no numbers in string, converted number otherwise
+ * Return: 0 if no numbers in string, then converted number otherwise
  *       -1 on error
  */
 
@@ -30,9 +30,9 @@ int _erratoi(char *s)
 }
 
 /**
- * print_error - prints an error messages
+ * print_error - it's prints an error messages
  * @info: the parameter and return info struct
- * @estr: string containing specified error type
+ * @estr: the string containing specified error type
  * Return: 0 if no numbers in string, converted number otherwise
  *        -1 on error
  */
@@ -53,7 +53,7 @@ void print_error(info_t *info, char *estr)
  * @input: the input
  * @fd: the filedescriptor to write to
  *
- * Return: number of characters to be printed
+ * Return: the number of characters to be printed
  */
 
 int print_d(int input, int fd)
@@ -89,12 +89,12 @@ int print_d(int input, int fd)
 }
 
 /**
- * convert_number - convert function, a clone of itoa
- * @num: number
- * @base: base
- * @flags: argument flags
+ * convert_number - to convert function, a clone of itoa
+ * @num: the number
+ * @base: the base
+ * @flags: the argument flags
  *
- * Return: string
+ * Return: strings
  */
 char *convert_number(long int num, int base, int flags)
 {
@@ -125,8 +125,8 @@ char *convert_number(long int num, int base, int flags)
 }
 
 /**
- * remove_comments - function replaces first instance of '#' with '\0'
- * @buf: address of the string to modify
+ * remove_comments - the function replaces first instance of '#' with '\0'
+ * @buf: the address of the string to modify
  *
  * Return: Always 0;
  */

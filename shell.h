@@ -112,7 +112,7 @@ typedef struct passinfo
 
 
 /**
- *struct builtin - contains a builtin string and related function
+ *struct builtin - it contains a builtin string and related function
  *@type: the builtin command flag
  *@func: the function
  */
